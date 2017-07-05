@@ -36,7 +36,7 @@
 
 # workflow
 
- - desicion to buy domain
+ - decision to buy domain
  - pay ether to smartcontract
  - seller unlocks domain
  - seller send auth code to buyer
@@ -54,7 +54,7 @@
 
 # lock/unlock
 
-# transfere code
+# transfer code
 
 # possible whois api
 
@@ -65,15 +65,15 @@
   
 ### desc
 
-everyone who obtain buyer secret hash can finalise contract, so the money should only go to sellers public key (eth address) or buyer public key (eth address). 
+everyone who obtain buyer secret hash can finalise contract, so the money should only go to sellers public key (eth address) or buyer public key (eth address).
 
-### mesurement  
+### measurement  
 
 best would be to set this two eth address at initalisation of deal.
 
 ### side effects
 
-lost private key resulting in stuck ether in contract   
+lost private key resulting in stuck ether in contract
 
     
 ## glossar
