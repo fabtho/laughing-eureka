@@ -18,6 +18,10 @@ ich hatte kurz kontakt mit dem typ von http://catch.info/. der war sehr nett.
 ## .com
  
 this is the most important market in the domain business.
+
+https://www.namecheap.com/support/knowledgebase/article.aspx/258/84/what-should-i-do-to-transfer-a-domain-from-namecheap
+
+Policy on Transfer of Registrations between Registrars https://www.icann.org/resources/pages/policy-2012-03-07-en
  
 ## .ch 
  
@@ -26,7 +30,7 @@ possible test market, but almost no domain market in switzerland. But process of
 1. registrar change does not need agreement via mail. 
 2. no grace periode 
 3. No repayment for the domain is needed, is it free? (hexonet, no new fee has to be payed)
-4. does a transfere look exist for .ch
+4. does a transfer look exist for .ch?
 
 But:
 
