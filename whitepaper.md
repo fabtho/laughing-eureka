@@ -4,26 +4,33 @@
 
 ## target markets
 
-
-
 ## network
-  ## personen
-     ich hatte kurz kontakt mit dem typ von http://catch.info/. der war sehr nett. 
+### personen
+
+ich hatte kurz kontakt mit dem typ von http://catch.info/. der war sehr nett. 
      
      
 ## technical
- 
  
 
 # tld
 
 ## .com
  
- this is the most important market in the domain business.
+this is the most important market in the domain business.
  
 ## .ch 
  
- possilbe test market, but almost no domain pro in switzerland
+possible test market, but almost no domain market in switzerland. But process off owner-change is much simpler then with .com domains. 
+
+1. registrar change does not need agreement via mail. 
+2. no grace periode 
+3. No repayment for the domain is needed, is it free? (hexonet, no new fee has to be payed)
+4. does a transfere look exist for .ch
+
+But:
+
+  .ch domains have no Email-Field in whois!
 
 ## .de
  
@@ -32,6 +39,8 @@
  ### whois for .de
  
  "Aus Datenschutzgründen können Informationen über Eigentümer von .de Domains nicht mehr wie früher über das whois-Protokoll abgefragt werden. Dies geht nur noch über eine mit einem Captcha gesicherte Webwhois-Seite, erreichbar über die Homepage[1] des DENIC." Source: https://de.wikipedia.org/wiki/Whois
+ 
+ But: whois entry about Tech-C is public via CLI
 
 
 # workflow
@@ -44,21 +53,35 @@
  - to sign ownership buyer set generated, secret hash to whois contact
  - smarcontract dedect this hash and pays seller
 
-
-## different proof of ownership for domains
+## different proof of ownership for domain
 
 ### whois
+
+ 1. set password to whois entery, use organisation field
+ 2. set password via email, like lutnlilzhtzuz8oiuopmppue@plattform.com (.ch domains have no email field in whois!)
 
  the whois entry is mangend by the registry: 
  Source: https://whois.icann.org/en/primer, https://de.wikipedia.org/wiki/Whois
 
+### via dns
+
+set new dns delegation, then make DNS entry to proof ownership
+
 # lock/unlock
 
-# transfer code
+# transfercode / auth code
+
+## Exchange auth code
+
+### over smart contract?
+
+idea: to store auth code directly encrypted as value in the smart contract, payment is decrypting it, reincrypt it with the buyer privat key. Pitfall: We need the have it on the evm in clear text, everyhone can read it. Question: How long is a auth-code valid? Some system allow to set an arbitrary auth-code (hexonet does)
+
+https://ethereum.stackexchange.com/questions/3442/using-ethereum-for-data-encryption
+
+### via Mail offchain
 
 # possible whois api
-
-
 
 # possible attack vectors
 ##  seller secret hash 
@@ -88,5 +111,10 @@ lost private key resulting in stuck ether in contract
 ### gTLDs
 
  generic Top Level Domains
+ https://en.wikipedia.org/wiki/Generic_top-level_domain
+
  
-https://en.wikipedia.org/wiki/Generic_top-level_domain
+### CLI
+
+Comand Line Interface. A text bassed Human/Computer interface. Als called shell
+ 
