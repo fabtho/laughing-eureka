@@ -1,0 +1,46 @@
+Token Sale Model
+----------------
+
+Egal ob ein Projekt Thrash ist oder nicht, es kann trotzdem ein gutes Token Sale Model haben.
+Ich liste hier mal Möglichkeiten auf.
+
+Quellen
+-------
+http://vitalik.ca/general/2017/06/09/sales.html
+https://medium.com/@Vlad_Zamfir/a-safe-token-sale-mechanism-8d73c430ddd1 (todo)
+
+Specify the problem
+-------------------
+1. Certainty of valuation - if you participate in a sale, you should have certainty over at least a ceiling on the valuation (or, in other words, a floor on the percentage of all tokens you are getting).
+2. Certainty of participation - if you try to participate in a sale, you should be able to generally count on succeeding.
+3. Capping the amount raised - to avoid being perceived as greedy (or possibly to mitigate risk of regulatory attention), the sale should have a limit on the amount of money it is collecting.
+4. No central banking - the token sale issuer should not be able to end up with an unexpectedly very large percentage of the tokens that would give them control over the market.
+5. Efficiency - the sale should not lead to substantial economic inefficiencies or deadweight losses.
+
+1 + 2 = Dilemma, cannot be satified simultanously
+3,4,5 = Dilemma, at least without resorting to very clever tricks, cannot be satisfied simultaneously.
+
+Possible Solutions
+------------------
+1. First, you can do a reverse dutch auction just like Gnosis, but with one change: instead of holding the unsold tokens, put them toward some kind of public good. 
+2. Second, you can keep the unsold tokens, but solve the “central banking” problem by committing to a fully automated plan for how they would be spent. 
+3. Third, you can do a capped sale, where you limit the amount that can be bought by each person. 
+
+Alternativen zu Single Round Sales
+- Micro-Rounds of uncapped Sales everyday for a year or so (angelshares)
+- Micro Sale, six month prior to the big one
+- Market Maker
+
+Modelle
+-------
+- Capped Sales (Fix Number of Tokens at a fixed Price)
+- Uncapped Sales
+- Hybrid capped Sales
+- Reverse Dutch Auctions
+- Vickrey Auctions
+- Proportional Refunds
+
+Failures
+- Maidsafe,  (running a sale that accepts multiple currencies at a fixed exchange rate is dangerous and bad. Don’t do it)
+- Ethereum, uncapped ( Nearly every uncapped sale is criticized for being “greedy” (a criticism I have significant reservations about))
+- BAT, capped (Because of Fomo, developers had 90% of token - and can act like a central bank)
