@@ -9,7 +9,8 @@ Quellen
 http://vitalik.ca/general/2017/06/09/sales.html
 https://medium.com/@Vlad_Zamfir/a-safe-token-sale-mechanism-8d73c430ddd1 (todo)
 
-
+Specify the problem
+-------------------
 1. Certainty of valuation - if you participate in a sale, you should have certainty over at least a ceiling on the valuation (or, in other words, a floor on the percentage of all tokens you are getting).
 2. Certainty of participation - if you try to participate in a sale, you should be able to generally count on succeeding.
 3. Capping the amount raised - to avoid being perceived as greedy (or possibly to mitigate risk of regulatory attention), the sale should have a limit on the amount of money it is collecting.
