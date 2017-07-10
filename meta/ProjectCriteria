@@ -1,7 +1,69 @@
 Project Criteria
 ----------------
 
-Was sollte eine Decentralized App leisten? Welche Kriterien sind zu erfüllen?
+
+Definition of a Dapp [1]
+--------------------
+- For an application to be considered a Dapp (pronounced Dee-app, similar to Email) it must meet the following criteria:
+- The application must be completely open-source, it must operate autonomously, and with no entity controlling the majority of its tokens. The application may adapt its protocol in response to proposed improvements and market feedback but all changes must be decided by consensus of its users.
+- The application's data and records of operation must be cryptographically stored in a public, decentralized blockchain in order to avoid any central points of failure.
+- The application must use a cryptographic token (bitcoin or a token native to its system) which is necessary for access to the application and any contribution of value from (miners / farmers) should be rewarded in the application’s tokens.
+- The application must generate tokens according to a standard crytptographic algorithm acting as a proof of the value nodes are contributing to the application (Bitcoin uses the Proof of Work Algorithm).
+
+Three Types of Dapps [1]
+--------------------
+- Type I (Analogy: Operating System like OS X etc.) decentralized applications have their own block chain. Bitcoin is the most famous example of a type I decentralized application but Litecoin and other “alt-coins” are of the same type.
+- Type II (Analogy: Software Program like Word etc.) decentralized applications use the block chain of a type I decentralized application. Type II decentralized applications are protocols and have tokens that are necessary for their function. The Omni Protocol is an example of a type II decentralized application.
+- Type III (Analogy: Specialized Software like Word Macro etc.) decentralized applications use the protocol of a type II decentralized application. Type III decentralized applications are protocols and have tokens that are necessary for their function. For example the SAFE Network that uses the Omni Protocol to issue ‘safecoins’ that can be used to acquire distributed file storage is an example of a type III decentralized application.
+
+Formation and development of a Dapp [1]
+-----------------------------------
+Step 1: A whitepaper is published describing the Dapp and its features
+Step 2: Initial tokens are distributed
+Step 3: The ownership stake of the Dapp is spread
+
+How do tokens get distributed? [1]
+------------------------------
+- Crowd-sale tokens: An initial one-time sale of tokens is a common way to initially fund a Dapp. The funds raised from such a crowd-sale should be controlled by an entity that is independent of the founders, commonly a Foundation.
+- Developer tokens: A portion of the tokens can be set aside for developers working on the project. As the market sets a valuation for the project, the developer tokens will gain value, attracting additional contributors to the project.
+- Premined tokens: It is best if no tokens are premined because most communities and investors are negatively predisposed to it. A premine may be successful only if a meaningful reason is provided by the founders.
+- Minable tokens: Distribution of tokens by mining incentivizes the community to contribute resources to the Dapp. In Bitcoin for example, there is a block reward every ten minutes, that incentivizes miners to provide hashing power to Bitcoin. Similarly, Dapps need to determine how to incentivize the network to contribute the required resource as this is the most important decision about the token distribution.
+
+How do I start developing a Dapp? [1]
+---------------------------------
+1. Create a whitepaper that has at least the following sections:
+- Intentions and goals of the Dapp
+- Plans for token distribution
+- Mechanism for establishing consensus
+- Structure of the non-profit that oversees the Dapp
+- Management of developer bounties
+- Technical description of the Dapp
+- Gain community engagement by releasing the plan and by revising it based on feedback.
+
+2. Set a date when the community can contribute to the crowd-sale.
+
+3. Sell the initial tokens based on your whitepaper and establish a non-profit to oversee the development of the Dapp.
+
+4. Begin executing your idea while the non-profit plans future development.
+
+
+Was sind die Vorteile einer Dapp (cryptoeconomic way)?
+
+- Zero Infrastructure, your users are the infrastructure, low barriers to entry
+- Low social cost of bootstrapping, easy to convince people to trust it
+- High security and reliability (fault tolerance)
+- Difficult to attack
+- Global, independent of national borders
+- Open, anyone can participate
+
+
+
+
+
+Quellen
+-------
+The General Theory of Decentralized Applications, Dapps
+[1] https://github.com/DavidJohnstonCEO/DecentralizedApplications/blob/master/README.md
 
 
 
