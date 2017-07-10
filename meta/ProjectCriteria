@@ -39,12 +39,24 @@ How do I start developing a Dapp? [1]
 - Management of developer bounties
 - Technical description of the Dapp
 - Gain community engagement by releasing the plan and by revising it based on feedback.
-
 2. Set a date when the community can contribute to the crowd-sale.
-
 3. Sell the initial tokens based on your whitepaper and establish a non-profit to oversee the development of the Dapp.
-
 4. Begin executing your idea while the non-profit plans future development.
+
+Examples
+--------
+- MaidSafe provides a “proof of resource” mechanism and decentralized data structure for storing files privately or publicly in the cloud.
+- StorJ provides a front-end, Dropbox-like cloud storage of files utilizing MaidSafe and other systems in the back-end.
+- Ethereum provides consensus-based scripting and computing resources.
+- OpenGarden provides mesh network-based Internet services.
+- Scalion provides an incentivized version of the Tor Network with nodes serving as Tor relays and exits.
+- Shared Miles provides a proof of transportation mechanism that allows for an open source transportation standard.
+- BlockAuth provides a multi signature OAuth-style system for sharing private data with third parties.
+- API Protocol provides an open source standard for hosting, normalizing, and sharing API data.
+
+Conclusion
+----------
+Dapps have the potential to become self-sustaining because they empower their stakeholders to invest in the development of the Dapp. Because of that, it is conceivable that Dapps for payments, data storage, bandwidth and cloud computing may one day surpass the valuation of multinational corporations like Visa, Dropbox, Comcast, and Amazon that are are currently active in the space.
 
 
 Was sind die Vorteile einer Dapp (cryptoeconomic way)?
