@@ -4,6 +4,11 @@ pragma solidity ^0.4.11;
 /// @title
 
 contract Salary{
+
+
+
+    //do not send fees direclty, just withdraw:
+    //use https://solidity.readthedocs.io/en/latest/common-patterns.html#withdrawal-from-contracts
     address feeaccount = 0x092Acb624b08C05510189BBbe21e6524D644CcAd;
     var fees = 1/1000
 
