@@ -28,3 +28,31 @@ Etherdelta Kontrakt:
 https://etherscan.io/address/0x8d12a197cb00d4747a1fe03395095ce2a5cc6819
 
 Weiter Interaktionen durch mich: https://etherscan.io/address/0x092acb624b08c05510189bbbe21e6524d644ccad
+
+
+deposit 0.75 ether from 0x092acb624b08c05510189bbbe21e6524d644ccad to etherdelta contract:
+der code liegt in diesem repro: see: solitity/examples/etherdelta.sol
+
+```
+Function: deposit()
+
+MethodID: 0xd0e30db0
+```
+https://etherscan.io/tx/0xd8a5241d9b073c8b513217965b66d7c8a8ec4eea1d993067014249152fdc6c50
+
+dann habe ich 0.1 MKR gekauft und MKR withdraw gemacht. (über etherdelta contract)
+
+Function: withdrawToken(address token, uint256 amount)
+
+```
+Function: withdrawToken(address token, uint256 amount)
+
+MethodID: 0x9e281a98
+[0]:000000000000000000000000c66ea802717bfb9833400264dd12c2bceaa34a6d (MKR crc20 token contract adress)
+[1]:000000000000000000000000000000000000000000000000016345785d8a0000
+```
+
+MKR crc20 token contract adress: https://etherscan.io/address/0xc66ea802717bfb9833400264dd12c2bceaa34a6d
+
+https://etherscan.io/tx/0x2875c5fc07d9b821f5527bef64ad4608843bdfd46e669c0ac9e8c78bf0e0c7c6
+
