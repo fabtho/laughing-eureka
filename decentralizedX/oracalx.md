@@ -18,12 +18,11 @@ https://swap.tech/whitepaper
 
 * Rate A/B wird über Orakel bestimmt.
 * Maker schickt alle A-Token mit Rate A/B und TTL in Block an Flatx Smartcontract
-* Taker schickt seine Tocken innerhalb TTL
+* Taker schickt seine Token innerhalb TTL
 * Swap zu Rate A/B
 * Token A gehen zu B und Token B zu A
-* Überzählige Token werden zurückgesendet, an Maker oder Taker
-
-
+* Nach dem TTL vom Maker werden die B Token ausbezahlt und allfällige überzählige A Token an den Maker zurückgesendet
+* Nach dem TTL vom Taker werden die A Token ausbezahlt und allfällige überzählige B Token an den Maker zurückgesendet
 
 ## Vorteil:
 * Keine Preisververhandlung nötig 
