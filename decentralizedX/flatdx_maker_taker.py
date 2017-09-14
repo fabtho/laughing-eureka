@@ -45,7 +45,7 @@ class FlatDx:
 
     def injectTaker(self):
             print('injectTaker')
-            self.taker = {'A': Decimal('0'), 'B': Decimal('600'), 'rate': Decimal('0.07' 'ttl': 5}
+            self.taker = {'A': Decimal('0'), 'B': Decimal('600'), 'rate': Decimal('0.07'), 'ttl': 5}
 
     def returnToken(self):
             print('returnToken')
