@@ -11,19 +11,22 @@ class FlatDx:
         # self.rate = Decimal('0.07')     # maker/taker =  1/10
         self.blocktime = 0.01
         self.orders = []
-        self.orders.append({'pair': 'GNTPAY', 'A': Decimal('10'), 'B': Decimal('0'), 'rate': Decimal('0.07'), 'ttl': 10})
-        self.orders.append({'pair': 'GNTPAY', 'A': Decimal('0'), 'B': Decimal('600'), 'rate': Decimal('0.07'), 'ttl': 5})
+        self.orders.append({'pair': 'GNTPAY', 'A': Decimal('10'), 'B': Decimal('0'), 'rate': Decimal('0.07'), 'ttl': 40})
+        self.orders.append({'pair': 'GNTPAY', 'A': Decimal('0'), 'B': Decimal('600'), 'rate': Decimal('0.07'), 'ttl': 50})
 
     def run(self):
         randmaker = int(random.random() * 10)
-        randtaker = randmaker + int(random.random() * 20)
+        randtaker = randmaker + int(random.random() * 10)
         makerpresent = False
 
         for i in range(0, self.blocks):
-            # every n block,
-            n = 10 
+            print('Block {}').format(i)
+            # ca every n block,
+            n = 10
             if int(random.random() * n) == 1:
-                self.inject()
+                self.maker = self.inject()
+                print('injectMaker')
+                # self.injectMaker()
 
             if makerpresent is True:
                 self.maker['ttl'] = self.maker['ttl'] - 1
@@ -31,22 +34,20 @@ class FlatDx:
                 if self.maker['ttl'] == 0:
                     self.returnToken()
                     makerpresent = False
-
-            print('Block {}').format(i)
-
-            time.sleep(self.blocktime)
+                    print('ttl is up')
 
             if i == randtaker:
                 if makerpresent is True:
-                    self.injectTaker()
+                    print('injectTaker')
+                    self.taker = self.inject()
                     self.swap()
-                else:
-                    print('ttl is up')
+           
+            time.sleep(self.blocktime)
+
 
     def inject(self):
             print('inject')
-
-
+            return self.orders.pop(0)
 
 
     def runold(self):
@@ -55,6 +56,8 @@ class FlatDx:
         makerpresent = False
 
         for i in range(0, self.blocks):
+            print('Block {}').format(i)
+
             if i == randmaker:
                 makerpresent = True
                 self.injectMaker()
@@ -66,7 +69,7 @@ class FlatDx:
                     self.returnToken()
                     makerpresent = False
 
-            print('Block {}').format(i)
+
 
             time.sleep(self.blocktime)
 
@@ -79,7 +82,7 @@ class FlatDx:
 
     def injectMaker(self):
             print('injectMaker')
-            self.maker = {'A': Decimal('10'), 'B': Decimal('0'), 'rate': Decimal('0.07'), 'ttl': 10}
+            self.maker = {'A': Decimal('10'), 'B': Decimal('0'), 'rate': Decimal('0.07'), 'ttl': 50}
 
     def injectTaker(self):
             print('injectTaker')

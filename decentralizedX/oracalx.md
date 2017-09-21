@@ -6,6 +6,10 @@ http://ubitok.io/products/
 
 # geplant
 
+RadarRelay:auf 0x
+
+https://medium.com/@RadarRelay/comparing-token-marketplaces-3606ca8d780b
+
 Airswap:
 
 - Preisverhandlung:  Off-Chain, mit Orakel als Unterstütung
