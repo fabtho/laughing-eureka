@@ -56,3 +56,35 @@ MKR crc20 token contract adress: https://etherscan.io/address/0xc66ea802717bfb98
 
 https://etherscan.io/tx/0x2875c5fc07d9b821f5527bef64ad4608843bdfd46e669c0ac9e8c78bf0e0c7c6
 
+
+### Verkauf von Blackmoon BMC
+
+1. Coin Übertragung (Token)  ($0.16) 8 Gwei
+
+https://etherscan.io/tx/0x2666eee11179ccd8539f41b6b7b5b1e9bbcce03694ab99d1356ecaaabd89bfb2
+
+```Function: approve(address _spender, uint256 _value)
+
+MethodID: 0x095ea7b3
+[0]:0000000000000000000000008d12a197cb00d4747a1fe03395095ce2a5cc6819
+[1]:00000000000000000000000000000000000000000000000000000036173b5b80
+```
+
+2. Interaktion Smartcontract  ($0.18) 8 Gwei
+
+
+https://etherscan.io/tx/0x0e390b2d9aff98e5b33df9156bb420404b99510cc491d2d0f4c1828539e863b0
+
+```
+Function: depositToken(address token, uint256 amount)
+
+MethodID: 0x338b5dea
+[0]:000000000000000000000000df6ef343350780bf8c3410bf062e0c015b1dd671
+[1]:00000000000000000000000000000000000000000000000000000036173b5b80
+```
+
+3. signatur für bid
+
+
+
+
