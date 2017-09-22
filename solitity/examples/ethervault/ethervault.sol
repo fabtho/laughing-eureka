@@ -1,16 +1,15 @@
-contract timeVault {
-	struct Member {
-		address addr;
-		uint amount;
-		uint blockNumberDeposited;
-		uint blockWithdrawlNumber;
-	}
+contract Vault {
 
-	Member[] public members;
-	uint public fundsStored;
-	uint public numDeposits;
+    address public owner;
 
-	function timeVault() {
+   /**
+     * @dev after this time in s the ether can be withdraw
+     * 
+     */
+    uint public minStoreDurationInSeconds;
+
+	function Vault() {
+		owner = msg.sender;
 		fundsStored = 0;
 		numDeposits = 0;
 	}
