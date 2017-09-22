@@ -6,6 +6,8 @@ http://ubitok.io/products/
 
 # geplant
 
+LEVERAGED ex https://leverj.io/
+
 RadarRelay:auf 0x
 
 https://medium.com/@RadarRelay/comparing-token-marketplaces-3606ca8d780b
