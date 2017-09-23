@@ -12,6 +12,9 @@ RadarRelay:auf 0x
 
 https://medium.com/@RadarRelay/comparing-token-marketplaces-3606ca8d780b
 
+https://www.raidex.io/ (Raiden Network)
+
+
 Airswap:
 
 - Preisverhandlung:  Off-Chain, mit Orakel als Unterstütung
