@@ -1,0 +1,23 @@
+# all editor files
+/.idea
+# residual svn folders and files
+.svn*
+
+# composer files
+/vendor
+composer.phar
+
+# config file
+/lib/config/Config.class.php
+
+# user uploads
+/static/files/*
+/static/pictures/*
+/static/img/news/*
+/static/js/tiny_mce/plugins/imagemanager/logs/*
+
+# cache and logs
+/lib/tpl_c/*
+/cache/
+/logs/
+logrotate
