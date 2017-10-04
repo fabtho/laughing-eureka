@@ -1,0 +1,14 @@
+# initialize genesis block
+geth --datadir /Users/roger/Data/projects/networking/fabianthommen/laughing-eureka/PrivateChain/data init CustomGenesis.json
+
+#future runs
+geth --datadir /Users/roger/Data/projects/networking/fabianthommen/laughing-eureka/PrivateChain/data --networkid 15
+
+# geth miner
+geth --datadir /Users/roger/Data/projects/networking/fabianthommen/laughing-eureka/PrivateChain/data --networkid 15 --mine --minerthreads=1 --etherbase=0x0000000000000000000000000000000000000000
+
+
+
+# other flags
+geth --identity "MyNodeName" --genesis CustomGenesis.json --rpc --rpcport "8000" --rpccorsdomain "*"
+--port "30303" --nodiscover --ipcapi "admin,db,eth,debug,miner,net,shh,txpool,personal,web3" --rpcapi "db,eth,net,web3" --autodag --networkid 1900 --nat "any" console
