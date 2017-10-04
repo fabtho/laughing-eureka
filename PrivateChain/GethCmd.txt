@@ -3,12 +3,26 @@ geth --datadir /Users/roger/Data/projects/networking/fabianthommen/laughing-eure
 
 #future runs
 geth --datadir /Users/roger/Data/projects/networking/fabianthommen/laughing-eureka/PrivateChain/data --networkid 15
+geth --datadir /Users/roger/Data/projects/networking/fabianthommen/laughing-eureka/PrivateChain/data --networkid 15 --nodiscover console
 
 # geth miner
 geth --datadir /Users/roger/Data/projects/networking/fabianthommen/laughing-eureka/PrivateChain/data --networkid 15 --mine --minerthreads=1 --etherbase=0x0000000000000000000000000000000000000000
 
 
 
+# new account
+> personal.newAccount("testing")
+"0xfbd10088b9138cd13df26f1c741f2cd5c9807d63"
+"enode://193140b6fc7a8c61f293fcdc714d8583ab665a169cfcda42d7727017e68ba273f953ad11f572578220b688024dbb62d45ee5a1eb71cb54906085a2fd6d3b21a3@[::]:30303?discport=0"
+
+# start miner
+miner.start(1)
+
 # other flags
 geth --identity "MyNodeName" --genesis CustomGenesis.json --rpc --rpcport "8000" --rpccorsdomain "*"
 --port "30303" --nodiscover --ipcapi "admin,db,eth,debug,miner,net,shh,txpool,personal,web3" --rpcapi "db,eth,net,web3" --autodag --networkid 1900 --nat "any" console
+
+
+# useful links
+https://github.com/ethereum/go-ethereum/wiki/Private-network
+https://ethereum.stackexchange.com/questions/13547/how-to-set-up-a-private-network-and-connect-peers-in-geth
